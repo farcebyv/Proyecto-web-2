@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explora el Mundo</title>
+  <!-- Favicon -->
+  <link href="imagen/favicon.png" rel="icon" type="image/png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/index.css">
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Botón de WhatsApp -->
+  <div id="whatsapp-button">
+    <a href="https://wa.me/1234567890" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- Botón de scroll top -->
+  <div id="scroll-top" title="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Header con botón principal -->
+  <header>
+    <div class="container">
+      <h1>Explora el Mundo</h1>
+      <p>Descubre destinos increíbles</p>
+      <button class="main-button">Comenzar Aventura</button>
+    </div>
+  </header>
+
+  <!-- Banner Full Width -->
+  <section class="banner">
+    <img src="imagen/banner.png" alt="Destinos alrededor del mundo">
+  </section>
+
+  <!-- Sección 1: Video YouTube -->
+  <section class="content-section">
+    <div class="container">
+      <h2>Nuestros Viajes</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ud3jGEdQhwQ?si=5WkhaBoAW69xT-5x" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 2: Audio MP3 -->
+  <section class="content-section">
+    <div class="container">
+      <h2>Escucha Nuestra Aventura</h2>
+      <audio controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+    </div>
+  </section>
+
+  <!-- Sección 3: Mapa Google -->
+  <section class="content-section">
+    <div class="container">
+      <h2>Nuestra Ubicación</h2>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245776.50198895443!2d-74.1443120958659!3d40.69728463484418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva%20York%2C%20EE.%20UU.!5e1!3m2!1ses!2scr!4v1751399978810!5m2!1ses!2scr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 4: Contenido adicional -->
+  <section class="content-section">
+    <div class="container">
+      <h2>Destinos Populares</h2>
+      <div class="grid-container">
+        <div class="destination-card">
+          <img src="imagen/paris.jpg" alt="París">
+          <h3>París, Francia</h3>
+          <button class="secondary-button">Ver Paquetes</button>
+        </div>
+        <div class="destination-card">
+          <img src="imagen/tokio.jpg" alt="Tokio">
+          <h3>Tokio, Japón</h3>
+          <button class="secondary-button">Ver Paquetes</button>
+        </div>
+        <div class="destination-card">
+          <img src="imagen/new york.jpg" alt="Nueva York">
+          <h3>Nueva York, USA</h3>
+          <button class="secondary-button">Ver Paquetes</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 5: Formulario de suscripción -->
+  <section class="content-section subscription">
+    <div class="container">
+      <h2>Suscríbete a Nuestras Ofertas</h2>
+      <form id="subscription-form">
+        <div class="form-group">
+          <input type="text" placeholder="Nombre" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Correo electrónico" required>
+        </div>
+        <button type="submit" class="main-button">Suscribirse</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Explora el Mundo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
